@@ -2,18 +2,29 @@
 
 .picture{
     position: relative;
-    width: 350px;
-    height: 260px;
+    width: 650px;
+    height: 500px;
     margin: 7px; /* Значение отступов */
-    padding: 20px; /* Поля вокруг текста */
+   /* padding: 20px; /* Поля вокруг текста */
     border: 1px solid black; /* Параметры границы */
     background: #fff; /* Цвет фона */
-    left: 160px;
+    left: 300px;
+    top: -50px;
 	display: inline-block;
+}
+
+.pic{
+    width: 650px;
+    height: 500px;
 }
 .menu_horiz a {
 	margin: 0 2px;
-}
+    position: relative;
+    left: 500px;
+    top: -70px;
+    padding-left: 60px;
+   }
+
 a {
     color: black; 
     text-decoration: none;
@@ -28,8 +39,20 @@ li {
 }
 .menu_vertic {
 	display: inline-block;
+    position: relative;
+    left: 270px;
+    top: -20px;
 }
 .menu_vertic li a{
     text-align: right;
     display: block;
+    padding-top: 20px;
+}
+
+.logo{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    top: 0px;
+    left: 240px;
 }
